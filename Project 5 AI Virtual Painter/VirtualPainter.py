@@ -8,7 +8,7 @@ brushThickness = 25
 eraserThickness = 100
 
 # Load top images (toolbar)
-folderPath = "E:\\Advance Computer Vision with Python\\main_en\\Project 5 AI Virtual Painter\\PainterImg"
+folderPath = 'C:/Users/accin/Documents/GitHub/Advance-Computer-Vision-with-Python/Project 5 AI Virtual Painter/PainterImg'
 myList = os.listdir(folderPath)  # Get the list of files in the folder
 print(myList)
 overlayList = [cv2.imread(f"{folderPath}/{imPath}") for imPath in myList]  # Read images

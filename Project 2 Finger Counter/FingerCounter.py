@@ -13,7 +13,7 @@ cap.set(3, wCam)  # Set camera width
 cap.set(4, hCam)  # Set camera height
 
 # Specify the path to the finger image folder
-folderPath = "E:\\Advance Computer Vision with Python\\main_en\\Project 2 Finger Counter\\FingerImages"
+folderPath = 'C:/Users/accin/Documents/GitHub/Advance-Computer-Vision-with-Python\Project 2 Finger Counter\FingerImages'
 myList = os.listdir(folderPath)  # Get a list of all file names in the folder
 print(myList)
 
